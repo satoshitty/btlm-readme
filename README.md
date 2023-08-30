@@ -1,19 +1,19 @@
-## Loading the ChatGPT Model from Huggingface
+## Loading the BTLM Model from Huggingface
 
-When loading the ChatGPT model from Huggingface, it's important to use a consistent and compatible environment, especially when working with the `bitsandbytes` package. It's recommended to use a fresh `conda` or `pyenv` environment to avoid any conflicts.
+When loading the BTLM model from Huggingface, it's important to use a consistent and compatible environment, especially when working with the `bitsandbytes` package. It's recommended to use a fresh `conda` or `pyenv` environment to avoid any conflicts.
 
 ### Step-by-step Guide:
 
 1. **Setting up the Environment**:
     - If you're using `conda`, create a new environment:
         ```bash
-        conda create --name chatgpt_env python=3.8
-        conda activate chatgpt_env
+        conda create --name btlm_env python=3.8
+        conda activate btlm_env
         ```
     - If you're using `pyenv`, create a new virtual environment:
         ```bash
-        pyenv virtualenv 3.8.10 chatgpt_env
-        pyenv activate chatgpt_env
+        pyenv virtualenv 3.8.10 btlm_env
+        pyenv activate btlm_env
         ```
 
 2. **Install Required Packages**:
